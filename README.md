@@ -14,8 +14,6 @@ Software – Quartus prime
 
 **Full Adder and Full Subtractor**
 
-
-
 **Full Adder**
 
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
@@ -40,9 +38,26 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+Full Adder
+
+![full adder](https://github.com/user-attachments/assets/adf18a0a-8e59-44bd-a08e-f899d0ab9b00)
+
+Full Subtractor
+
+![full subtractor](https://github.com/user-attachments/assets/a217361a-7151-461b-96f0-f86efe6a13a9)
+
+
 **Procedure**
 
-Write the detailed procedure here
+1.	Type the program in Quartus software.
+
+2.	Compile and run the program.
+
+3.	Generate the RTL schematic and save the logic diagram.
+
+4.	Create nodes for inputs and outputs to generate the timing diagram.
+
+5.	For different input combinations generate the timing diagram.
 
 **Program:**
 
